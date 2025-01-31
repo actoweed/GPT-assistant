@@ -8,6 +8,8 @@ gpt assistant for DKFLIMS
 
 Переходим в код и вставляем этот ключ в эту строку: os.environ["PINECONE_API_KEY"] = "INSERT YOUR PINECONE API KEY"
 
+Так же вставляем ключ openAI сюда: client = OpenAI(api_key="YOUR OPENAI API KEY") !!! (Ключ выдан в тг)
+
 Загружаем туда файлы, желательно чтобы в файле было так: ''' текст '''
 
 Нажимем сюда, после нажимаем "Change runtime type" и выбираем T4
