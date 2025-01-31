@@ -36,6 +36,8 @@ gpt assistant for DKFLIMS
 
 Вставляем его сюда: file_paths = ["PATH TO YOUR FILES"]  
 
+Если файл не один, то указываем путь к каждому файлу через запятую например : file_paths = ["с/1.txt","c/2.txt"]  
+
 Запускаем основной код, и если все сделали так, то должно быть что-то такое, только с полем для ввода запроса:
 
 ![image](https://github.com/user-attachments/assets/13c68c7b-105c-4c52-bf07-734de705ea91)
